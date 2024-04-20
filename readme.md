@@ -18,7 +18,7 @@ python tools/train.py --config_file configs/softmax_triplet.yml
 
 【**这里只是reid的训练，不含yolov8的训练部分**，这是两个算法，请务必分清！这里只是两个算法做级联】
 
-ps:arrow_right:**该训练reid项目与person_search项目是独立的！！**训练完reid后，把训练好的权重放到**person_search/weights**下，切换到peron_search项目中在去进行reid识别【不然有时候会报can't import xxx】。
+ps:arrow_right:**该训练reid项目与Reid_Search项目是独立的！！**训练完reid后，把训练好的权重放到**person_search/weights**下，切换到Reid_Search项目中在去进行reid识别【不然有时候会报can't import xxx】。
 
 参数说明：
 
