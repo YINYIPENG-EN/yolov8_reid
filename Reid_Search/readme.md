@@ -42,15 +42,9 @@ ps:也可以直接将图像放在query文件中，但名字也需要按mark1501�
 
 --imgsz: 输入图像大小，默认640
 
---conf_thres:置信度阈值
-
---iou_thres:iou阈值
-
---classes:过滤的类
-
 --dist_thres:reid对比的距离阈值(**小于该阈值判断为同一个人**)
 
---save_res:保存视频图像
+--save:保存视频图像
 
 ```shell
 python search.py --weights yolov8s.pt --source demo.mp4 --dist_thres 1.
