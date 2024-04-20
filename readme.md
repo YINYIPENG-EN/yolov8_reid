@@ -122,3 +122,5 @@ CMC curve, Rank-10 :99.5%
 训练代码为200RMB(不含tensorboard)，如果还需要包含tensorboard可视化为300RMB（含训练代码）。【拒绝讲价】
 
 联系方式：wechat  y24065939s
+
+CSDN：http://t.csdnimg.cn/71glP
