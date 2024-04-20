@@ -1,6 +1,6 @@
 # yolov8 Reid
 
-检测：将  **ReID_resnet50_ibn_a.pth**放在:ear:**person_search/weights**文件下，yolov8s.pt放**person_search**下 【文末有权重链接】
+检测：将  **ReID_resnet50_ibn_a.pth**放在:ear:**Reid_Search/weights**文件下，yolov8s.pt放**Reid_Search**下 【文末有权重链接】
 
 该项目可用于做reid识别，可用于做**跨视频人员识别**
 
@@ -71,7 +71,7 @@ wechat:y24065939s
 
 # 权重下载
 
-检测：将  **ReID_resnet50_ibn_a.pth**放在:ear:**person_search/weights**文件下，yolov8s.pt放**person_search**下 
+检测：将  **ReID_resnet50_ibn_a.pth**放在:ear:**Reid_Search/weights**文件下，yolov8s.pt放**Reid_Search**下 
 
 链接：https://pan.baidu.com/s/1C4aQIr82kjQEdY-E0H8i3A 
 提取码：yypn 
