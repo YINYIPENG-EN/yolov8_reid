@@ -16,6 +16,24 @@ python tools/train.py --config_file configs/softmax_triplet.yml
 
 输入上述命令可快速开启训练~
 
+更新：支持中断后的恢复训练或者用于微调
+
+输入命令：
+
+```bash
+python tools/train.py --config_file configs/softmax_triplet.yml --weights 【weight path】 --resume
+```
+
+
+
+更新：支持冻结训练，加快训练速度，或在微调中使用。输入命令：
+
+```
+python tools/train.py --weights 【weight path】 --freeze --freeze_epoch 20
+```
+
+
+
 【**这里只是reid的训练，不含yolov8的训练部分**，这是两个算法，请务必分清！这里只是两个算法做级联】
 
 ps:arrow_right:**该训练reid项目与Reid_Search项目是独立的！！**训练完reid后，把训练好的权重放到**person_search/weights**下，切换到Reid_Search项目中在去进行reid识别【不然有时候会报can't import xxx】。
@@ -35,6 +53,12 @@ ps:arrow_right:**该训练reid项目与Reid_Search项目是独立的！！**训�
 --pretrain_choice: Imagenet
 
 --IF_WITH_CENTER: us center loss, True or False.
+
+--resume: resume train
+
+--freeze: freeze train
+
+--freeze_epoch:freeze train epochs
 
 :fountain_pen:
 
@@ -120,6 +144,8 @@ CMC curve, Rank-10 :99.5%
 开发不易，yolov8 reid中的**核心训练代码部分为有偿提供**。
 
 训练代码为200RMB(不含tensorboard)，如果还需要包含tensorboard可视化为300RMB（含训练代码）。【拒绝讲价】
+
+tensorboard新增内容：hard sample可视化
 
 联系方式：wechat  y24065939s
 

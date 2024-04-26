@@ -156,6 +156,8 @@ def main():
                                                                                     "different optimizer "
                                                                                     "configuration")
     parser.add_argument('--resume', action='store_true', help='resume train')
+    parser.add_argument('--freeze', action='store_true', default=False, help='freeze train')
+    parser.add_argument('--freeze_epoch', type=int, default=20, help='freeze train epochs')
     parser.add_argument("opts", help="Modify config options using the command-line", default=None,
                         nargs=argparse.REMAINDER)
 
